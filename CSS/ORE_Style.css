@@ -1,0 +1,427 @@
+body {
+    background-color: #d7ecff;
+    text-align: center;
+    min-width: 1340px;
+    margin: auto;
+    width: min-content;
+}
+
+.banner {
+    padding-top: 1px;
+    padding-bottom: 25px;
+    background-image: url(../ORE_Images/BackgroundImages/banner.jpg);
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+#header {
+    font-size: 20pt;
+    height: 100px;
+    width: 1335px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+#homeButton {
+    float: left;
+    display: inline-block;
+    margin: 40px 0 0 30px;
+}
+
+#homeButton:hover {
+    background-color: #1f6394;
+}
+
+#footer {
+    width: 1305px;
+    text-align: right;
+    padding-right: 30px;
+    /*border-bottom-left-radius: 50px;*/
+    /*border-bottom-right-radius: 50px;*/
+}
+
+#content {
+    display: flex;
+    height: 723px;
+}
+
+#leftPanel {
+    text-align: left;
+}
+
+#rightPanel {
+    text-align: right;
+}
+
+.sideBanner {
+    margin-top: 3px;
+    width: 182px;
+}
+
+.panel {
+    padding-top: 1px;
+    margin-right: 12px;
+    height: 65px;
+    width: 225px;
+    border-radius: 20px;
+    background-color: #6795b7;
+    border-top: 1px solid #1f6394;
+    border-right: 3px double #1f6394;
+    border-bottom: 3px double #1f6394;
+    border-left: 1px solid #1f6394;
+}
+
+.panel:hover {
+    border-top: 1px solid black;
+    border-right: 3px double black;
+    border-bottom: 3px double black;
+    border-left: 1px solid black;
+    background-color: #1f6394;
+}
+
+
+#details {
+    background-image: url(../ORE_Images/BackgroundImages/banner2.jpg);
+    border: 5px double black;
+    width: 888px;
+    height: 647px;
+    margin-left: 4px;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px white;
+    border-radius: 20px;
+}
+
+#backdrop {
+    background-image: url(../ORE_Images/BackgroundImages/banner2.jpg);
+    border: 5px double black;
+    width: 888px;
+    height: 573px;
+    margin: 5px 0 0 4px;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px white;
+    border-radius: 20px;
+}
+
+
+#register {
+    padding: 0 20px 0 20px;
+    display: inline-block;
+}
+
+#register:hover {
+    background-color: #6795b7;
+}
+
+#loginForm {
+    margin-right: 340px;
+    text-align: right;
+    margin-top: 50px;
+}
+
+#registrationForm {
+    text-align: right;
+    margin-top: 65px;
+    margin-right: 300px;
+}
+
+#usersSpeech {
+    text-align: left;
+    margin-left: 250px;
+}
+
+#pairingCriteria {
+    clear: both;
+}
+
+.regPanel {
+    padding:  0 15px 0 15px;
+    text-align: left;
+    height: 290px;
+    width: 263px;
+    margin: 35px 0 9px 0;
+    background-color: #6795b7;
+    font-size: 14pt;
+    float: left;
+    border: 1px solid black;
+}
+
+.infoText {
+    font-size: 10pt;
+}
+
+#addHouseSection {
+    margin-top: 28px;
+}
+
+
+#container {
+    float: right;
+}
+
+#houseDetails {
+    margin-top: 25px;
+    display: inline-block;
+    text-align: right;
+}
+
+#propertyImage {
+    margin: 27px 0 15px 0;
+    float: left;
+    height: 186px;
+    width: 280px;
+    border: 1px solid black;
+    background-color: #6795b7;
+}
+
+#propertyImage:hover {
+    background-color: #1f6394;
+}
+
+#indexDescription {
+    margin-top: 20px;
+    padding: 25px;
+    border: 2px solid black;
+    text-align: left;
+    font-size: 10pt;
+}
+
+.propertyInput {
+    margin-right: 5px;
+}
+
+#profileSubmit {
+    margin-left: 107px;
+}
+
+#box {
+    margin: 0 12px 0 12px;
+    padding: 15px 90px 55px 90px;
+}
+
+.browseTypeButton {
+    background-color: #6795b7;
+    padding: 22px 0 22px 0;
+    margin-top: 20px;
+    border-top: 1px solid #1f6394;
+    border-right: 4px double #1f6394;
+    border-bottom: 4px double #1f6394;
+    border-left: 1px solid #1f6394;
+    border-radius: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.browseTypeButton:hover {
+    border-top: 1px solid black;
+    border-right: 4px double black;
+    border-bottom: 4px double black;
+    border-left: 1px solid black;
+    background-color: #1f6394;
+}
+
+#player {
+    margin-top: 100px;
+}
+
+.wide_button {
+    width: 200px;
+    height: 40px;
+    background-color: #6795b7;
+}
+
+.center {
+    text-align: center;
+}
+
+.propertyButton {
+    margin-bottom: 10px;
+    padding: 2px;
+    background-color: #6795b7;
+}
+
+.propertyButton:hover {
+    background-color: #1f6394;
+}
+
+.propertyLink {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.propertyTitle {
+    font-family: sans-serif;
+    font-size: 9pt;
+}
+
+.span500 {
+    text-align: right;
+    width: 500px;
+}
+
+.threeDigits {
+    text-align: center;
+    width: 37px;
+}
+
+.fourDigits {
+    text-align: center;
+    width: 48px;
+}
+
+.sixDigits {
+    text-align: center;
+    width: 60px;
+}
+
+#mainPanel {
+    text-align: center;
+    margin-top: 3px;
+    height: 716px;
+    width: 970px;
+}
+
+#navPanel {
+    width: 100%;
+    height: 62px;
+    text-shadow: 1px 1px 1px black;
+}
+
+#navPanel a {
+    color: white;
+    text-decoration: none;
+}
+
+.navTab {
+    display: inline-block;
+    margin-right: 1px;
+    border: 1px solid #1f6394;
+    border-radius: 4px;
+    background-color: #5881A0;
+}
+
+.navTab:hover {
+    border: 1px solid black;
+    background-color: #1f6394;
+    text-shadow: 1px 1px 5px black;
+    text-decoration: none;
+}
+
+#profileForm {
+    height: 644px;
+    background-color: lightblue;
+    margin-top: 3px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#profilePictureContainer {
+    float: left;
+    width: 405px;
+    height: 270px;
+}
+
+#profileRight {
+    float: right;
+    width: 390px;
+    height: 500px;
+    text-align: right;
+    padding-right: 140px;
+}
+
+#profileAboutMe {
+    padding-left: 15px;
+    padding-top: 40px;
+    float: left;
+    width: 420px;
+    height: 280px;
+    text-align: left;
+}
+
+
+.bigButton {
+    width: 180px;
+    height: 50px;
+}
+
+#errorMessage {
+    color: red;
+    margin-bottom: 0;
+}
+
+.divButton {
+    display: inline-block;
+    padding: 0 20px 0 20px;
+    border-radius: 15px;
+    background-color: #5881A0;
+    border-top: 1px solid #1f6394;
+    border-right: 3px double #1f6394;
+    border-bottom: 3px double #1f6394;
+    border-left: 1px solid #1f6394;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-decoration: none;
+}
+
+.divButton:hover {
+    border-top: 1px solid black;
+    border-right: 3px double black;
+    border-bottom: 3px double black;
+    border-left: 1px solid black;
+    background-color: #1f6394;
+}
+
+#editPropertyButton {
+    height: 40px;
+    width: 840px;
+    padding-top: 15px;
+    margin-bottom: 3px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#editPropertyButton h3 {
+    margin: 0;
+}
+
+#deleteProperty {
+    height: 40px;
+    width: 38px;
+    padding-top: 15px;
+    margin-bottom: 3px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#addPropertyButton {
+    width: 925px;
+}
+
+.strip {
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-bottom: 10px;
+    width: 959px;
+    height: 50px; 
+    background-color: white;
+    border: 1px solid #1f6394;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.strip h3 {
+    padding: 13px;
+    color: #1f6394;
+    margin: 0;
+}
+
+#submit {
+    float: right;
+    margin-right: 140px;
+}
